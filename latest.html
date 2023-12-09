@@ -1,414 +1,141 @@
 <style type="text/css">
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+  body {
+    background-color: rgb(255, 255, 255);
   }
-  .tg{
-    table-layout: fixed;
 
+  img {
+    border-radius: 6mm;
   }
-  td{
+
+  table, th, td {
+    border: 3px solid black;
+    /* border-collapse: collapse; */
+  }
+  table{
+  border-spacing: 6px;
+  }
+
+  td {
     border-width: 1px;
     border-color: black;
-    width: 55mm; 
-    height: 75mm;
-    /* padding: 10px; */
-    
+    width: 54mm;
+    height:85.5mm ;
+    background-image: url('./Images/template3.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+   
   }
-  .section1{
-    position: relative;
-    background-color: brown;
-    color: white;
-    margin-bottom: 10px;
-    /* top: -27px; */
+
+
+  .child-info,
+  .child-details {
+    flex: 1;
+    /* Equal distribution of space */
+    /* Adjust margin, padding, or other styles as needed */
   }
-.second-section{
+
+  .second-section{
   text-transform: uppercase;
+ 
 }
-  .child-name{
-    color: red;
-    font-size: 15px;
-    margin-left: 45px;
+
+  .child-image {
+    width: 15mm;
+    height: 15mm;
+    margin-bottom: 2px;
   }
-  .child-class{
-    font-size: 12px;
-    margin-left: 65px;
-    margin-bottom: 10px;
+
+  .child-name {
+    color: red;
+    font-size: 20px;
   }
 
   .child-details {
-    font-size: 11px;
+    font-size: 10px;
     text-align: left; 
     padding-left: 11px; 
     padding-right: 11px; 
-    
-  }
-  .red_details{
-    color: red;
-    font-weight: bold;
+    position: relative;
+    top: 10px;
   }
 
-  .principal-sign img {
-    width: 15mm; 
-    height: 15mm;
-    display:block;
-    position: relative;
-    top: 16px;
-  }
-  .principal-sign span{
-    position: relative;
-    top: 1mm;
-    right: 1mm;
-    font-size: 11px;
-  }
-  .logo {
-    margin-top: 10px;
-    width: 7mm;
-    height: 7mm;
+  .red_details {
+    color: red;
   }
   #stud_img{
-    width: 18mm;
-    height: 18mm;
+    width: 17mm;
+    height: 17mm;
     margin-left: 74px;
     margin-bottom: 7px;
-  }
-  .college_logo{
+    border-radius: 13px;
     position: relative;
-    width: 10mm;
-    height: 10mm;
-    left: 10px;
-    top: 10px;
-
+    top:10px;
+    right: 10px;
   }
-  .college_logo img{
-    border-radius: 10px;
-  }
-  #col_name1{
-    position: relative;
-    top: -2mm;
-    font-size: 17px;
-    font-weight: bold;
-
-  }
-  #col_name2{
+  .child-name{
+    color: red;
     font-size: 13px;
+    margin-left: 38px;
     position: relative;
-    left: 14mm;
-    top: -2mm;
-    font-weight: bold;
+    top: 5px;
+  }
+  .child-class{
+    font-size: 11px;
+    margin-left: 62px;
+    margin-bottom: 3px;
+    position: relative;
+    top: 5px;
+  }
+    #little_space{
+      margin-right: 5px;
+    }
+    #little_space2{
+      margin-left: 5px;
+    }
 
-  }
-  .address1{
-    font-size: 10px;
-    margin-left: 22px;
-  }
-  .address2{
-    font-size: 10px;
-    margin-left: 47px;
-  }
-  .third-section{
-    background-color: brown;
-    color: rgb(255, 255, 255);
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
 </style>
 
-<page>
-  
+<body>
+
   <table class="tg">
-  <tbody>
-    <tr>
-      <td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td>
-      <td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td>
-      <td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td>
-      <td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td>
-      <td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td>
+    <tbody>
+      <tr>
+        <td class="tg-0lax">
+          <div class="second-section">
+            <img src="./Images/stud.webp" alt="" id="stud_img"><br>
+            <div class="child-name">asshray sharma</div>
+            <div class="child-class">B-Tech 1st</div>
+            <div class="child-details">
+              <span class="red_details" id="little_space">F.Name </span> : Someone Kumar<br>
+              <span class="red_details">M.Name </span> : Someone Kumar<br>
+              <span class="red_details">Mob. No</span> : 9141512677<br>
+              <span class="red_details" >Adm. No</span> : 4855
+              <span class="red_details" id="little_space2">D.O.B</span> : 21.12.2003<br>
+              <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br> 
+            </div>
+          </div>  
+        </td>
       
-    </tr>
-    <tr>
-      <td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td><td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td><td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td><td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td><td class="tg-0lax">
-        <div class="section1">
-          <img src="./Images/college_logo.png" alt="" srcset="" class="college_logo">
-          <span id="col_name1" >Guru Nanak Dev</span>
-          <br>
-          <span id="col_name2" >Engineering College</span>
-        </div>
-        <div class="second-section">
-          <img src="./Images/stud.webp" alt="" id="stud_img"><br>
-          <div class="child-name">asshray sharma</div>
-          <div class="child-class">B-Tech 1st</div>
-          <div class="child-details">
-            <span class="red_details">F.Name </span>: Someone Kumar<br>
-            <span class="red_details">M.Name </span> : Someone Kumar<br>
-            <span class="red_details">Mob. No</span> : 9141512677<br>
-            <span class="red_details">Adm. No</span> : 4855
-            <span class="red_details">D.O.B</span> : 21.12.2003<br>
-            <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br>
-            <img class="logo" src="./Images/principal_sign.png"><br>
-            <span>Principal</span>  <br><br>
-
-          </div>
-        </div>  
-        <div class="third-section">
-          <span class="address1" >Gill Park, Gill Road, Ludhiana 141006</span>
-            <br>
-            <span class="address2">Contact Us. 0161 5064501</span>
-        </div>  
-      </td>
-    </tr>
-  </tbody>
+      </tr>
+      <tr>
+        <td class="tg-0lax">
+          <div class="second-section">
+            <img src="./Images/stud.webp" alt="" id="stud_img"><br>
+            <div class="child-name">asshray sharma</div>
+            <div class="child-class">B-Tech 1st</div>
+            <div class="child-details">
+              <span class="red_details">F.Name </span>: Someone Kumar<br>
+              <span class="red_details">M.Name </span> : Someone Kumar<br>
+              <span class="red_details">Mob. No</span> : 9141512677<br>
+              <span class="red_details">Adm. No</span> : 4855
+              <span class="red_details">D.O.B</span> : 21.12.2003<br>
+              <span class="red_details">Address</span>: 675/2, Sherpur Rd, Focal Point, Ludhiana, Punjab 141010<br> 
+            </div>
+          </div>  
+        </td>
+        </td>
+       
+      </tr>
+    </tbody>
   </table>
-</page>
+</body>
