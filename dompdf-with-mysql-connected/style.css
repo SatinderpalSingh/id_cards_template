@@ -1,0 +1,68 @@
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  td {
+    border-width: 1px;
+    border-color: black;
+    width: 55mm;
+    height: 20mm;
+  }
+
+  .child-info,
+  .child-details {
+    flex: 1;
+    /* Equal distribution of space */
+    /* Adjust margin, padding, or other styles as needed */
+  }
+
+  .child-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* positiopagen: relative; */
+    /* left: 47px; */
+    font-size: 10px;
+  }
+
+  .child-image {
+    width: 15mm;
+    height: 15mm;
+    margin-bottom: 2px;
+  }
+
+  .child-name {
+    color: red;
+    font-size: 20px;
+  }
+
+  .child-details {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .red_details {
+    color: red;
+  }
+
+  .principal-sign img {
+    width: 15mm;
+    height: 15mm;
+    display: block;
+    position: relative;
+    top: 16px;
+  }
+
+  .principal-sign span {
+    position: relative;
+    top: 1mm;
+    right: 1mm;
+    font-size: 11px;
+  }
+
+  .logo {
+    width: 15mm;
+    height: 15mm;
+  }
