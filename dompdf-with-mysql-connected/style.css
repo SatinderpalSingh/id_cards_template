@@ -1,68 +1,71 @@
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
+table, th, td {
+  border: 0.7mm solid black;
+}
 
-  td {
-    border-width: 1px;
-    border-color: black;
-    width: 55mm;
-    height: 20mm;
-  }
+table {
+  border-spacing: 1.5mm;
+}
 
-  .child-info,
-  .child-details {
-    flex: 1;
-    /* Equal distribution of space */
-    /* Adjust margin, padding, or other styles as needed */
-  }
+td {
+  border-width: 1px;
+  border-color: black;
+  width: 54mm;
+  height: 85.5mm;
+  background-image: url('./Images/template3.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
-  .child-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    /* positiopagen: relative; */
-    /* left: 47px; */
-    font-size: 10px;
-  }
+.second-section {
+  text-transform: uppercase;
+}
 
-  .child-image {
-    width: 15mm;
-    height: 15mm;
-    margin-bottom: 2px;
-  }
+#child-image {
+  width: 16.5mm;
+  height: 16.5mm;
+  margin-left: 17.5mm;
+  margin-bottom: 1.8mm;
+  border-radius: 3.4mm;
+  position: relative;
+  top: 2mm;
+}
 
-  .child-name {
-    color: red;
-    font-size: 20px;
-  }
+.child-name {
+  color: red;
+  font-size: 3.5mm;
+  margin-left: 10mm;
+  position: relative;
+  top: 1mm;
+  font-weight: bold;
+}
 
-  .child-details {
-    font-size: 13px;
-    text-align: left;
-  }
+.child-class {
+  font-size: 2.2mm;
+  margin-left: 19.5mm;
+  margin-bottom: 0.9mm;
+  position: relative;
+  top: 1mm;
+  font-weight: bold;
+}
 
-  .red_details {
-    color: red;
-  }
+.child-details {
+  font-size: 2.5mm;
+  text-align: left;
+  padding-left: 4mm;
+  padding-right: 4mm;
+  position: relative;
+  top: 2mm;
+}
 
-  .principal-sign img {
-    width: 15mm;
-    height: 15mm;
-    display: block;
-    position: relative;
-    top: 16px;
-  }
+.red-details {
+  color: red;
+  font-weight: bold;
+}
 
-  .principal-sign span {
-    position: relative;
-    top: 1mm;
-    right: 1mm;
-    font-size: 11px;
-  }
+.space-right {
+  margin-right: 1mm;
+}
 
-  .logo {
-    width: 15mm;
-    height: 15mm;
-  }
+.space-left {
+  margin-left: 1mm;
+}
