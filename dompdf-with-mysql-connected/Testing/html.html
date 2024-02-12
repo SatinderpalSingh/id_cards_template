@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <div class='first_section'>
+                    <img src='./Images/college_logo.png' alt='' srcset='' id='institute_logo'>
+                    <span id='institute_name'>GURU NANAK DEV ENGINEERING COLLEGE</span>
+                </div>
+                <div class='second_section'>
+                <img id='child-image' src='./Images/stud.webp' ><br>
+                  <div class='child-name'>{$student_data['name']}</div>
+                  <div class='child-class'>Class: {$student_data['class']}</div>
+                  <div class='child-details'>
+                    <span class='red_details space-right'>F.Name</span>: {$student_data['f_name']}<br>
+                    <span class='red_details'>M.Name</span>: {$student_data['m_name']}<br>
+                    <span class='red_details'>Mob. No</span>: {$student_data['class']}<br>
+                    <span class='red_details'>Adm. No</span> : {$student_data['admission_no']}
+                    <span class='red_details space-left'>D.O.B</span> : {$student_data['dob']}<br>
+                    <span class='red_details'>Address</span>: {$student_data['address']}<br>
+                  </div>
+                </div>
+                <div class='third_section'>
+                    <span>Gill Park, Gill Road, Ludhiana 141006,</span>
+                    <br><span>Contact No. 0161 5064501,</span>
+                  </div>
+              </td>
+        </tr>
+    </table>
+</body>
+
+</html>

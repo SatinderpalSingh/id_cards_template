@@ -54,14 +54,16 @@ td {
 .second_section {
   text-transform: uppercase;
   position: relative;
-  height: 61mm;
+  height: 59mm;
   text-wrap:wrap;
+  padding-top: 5%;
+  overflow: hidden;
 }
 
 #child-image{
   width: 15.5mm;
   height: 15.5mm;
-  margin-left: 18.5mm;
+  margin-left: 19mm;
   margin-bottom: 1.8mm;
   border-radius: 3.4mm;
   position: relative;
@@ -73,6 +75,8 @@ td {
   font-size: 3.5mm;
   /* margin-left: 10mm; */
   position: relative;
+  padding-left: 2mm;
+    padding-right: 2mm;
   top: 1mm;
   font-weight: bold;
   text-align: center;
@@ -80,10 +84,9 @@ td {
 
 .child-class {
   font-size: 2.2mm;
-  margin-left: 19.5mm;
   margin-bottom: 0.9mm;
-  translate: -14%;
   position: relative;
+  text-align: center;
   top: 1mm;
   font-weight: bold;
 }
@@ -118,9 +121,9 @@ td {
   position: relative;
   font-size: 2.5mm;
   text-align: center;
-  padding-top: 1mm;
+  padding-top:2%;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  height: 1mm;
+  height: 7mm;
   
 }

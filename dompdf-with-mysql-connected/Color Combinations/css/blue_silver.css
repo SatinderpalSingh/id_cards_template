@@ -20,11 +20,13 @@ td {
   background-image: url('../../Images/Color_Combinations Templates/blue-silver.png');
   background-size: 101%;
   background-repeat: no-repeat;
+  vertical-align: top;
 
 }
 .first_section{
   position: relative;
-  bottom: 8mm;
+  /* bottom: 8mm; */
+  height: 17mm;
 }
 #institute_logo{
   position: relative;
@@ -52,17 +54,20 @@ td {
 .second_section {
   text-transform: uppercase;
   position: relative;
-  bottom: 7mm;
+  height: 59mm;
+  text-wrap:wrap;
+  padding-top: 3%;
+  overflow: hidden;
 }
 
 #child-image{
-  width: 16.5mm;
-  height: 16.5mm;
-  margin-left: 17.5mm;
+  width: 15.5mm;
+  height: 15.5mm;
+  margin-left: 19mm;
   margin-bottom: 1.8mm;
   border-radius: 3.4mm;
   position: relative;
-  top: 2mm;
+  top: 3mm;
 }
 
 .child-name {
@@ -70,6 +75,8 @@ td {
   font-size: 3.5mm;
   /* margin-left: 10mm; */
   position: relative;
+  padding-left: 2mm;
+    padding-right: 2mm;
   top: 1mm;
   font-weight: bold;
   text-align: center;
@@ -77,9 +84,9 @@ td {
 
 .child-class {
   font-size: 2.2mm;
-  margin-left: 19.5mm;
   margin-bottom: 0.9mm;
   position: relative;
+  text-align: center;
   top: 1mm;
   font-weight: bold;
 }
@@ -91,26 +98,32 @@ td {
   padding-right: 4mm;
   position: relative;
   top: 2mm;
+  text-wrap: wrap;
+  line-height: 3.4mm;
 }
 
 .red_details {
   color: red;
   font-weight: bold;
+  text-wrap: wrap;
 }
-
+#stud_address{
+  text-align: center;
+}
 #little_space {
   margin-right: 1mm;
 }
 
-#little_space2 {
+#space-left {
   margin-left: 1mm;
 }
 .third_section{
   position: relative;
   font-size: 2.5mm;
   text-align: center;
+  padding-top: 1%;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  top: 8mm;
   color: white;
+  height: 7mm;
   
 }
