@@ -25,9 +25,9 @@
             <span class='red_details space-right'>F.Name</span>: {$student_data['f_name']}<br>
             <span class='red_details'>M.Name</span>: {$student_data['m_name']}<br>
             <span class='red_details'>Mob. No</span>: {$student_data['class']}<br>
-            <span class='red_details'>Adm. No</span> : {$student_data['admission_no']}
-            <span class='red_details space-left'>D.O.B</span> : {$student_data['dob']}<br>
-            <span class='red_details'>Address</span>: {$student_data['address']}<br>
+            // <span class='red_details'>Adm. No</span> : {$student_data['admission_no']}
+            // <span class='red_details space-left'>D.O.B</span> : {$student_data['dob']}<br>
+            // <span class='red_details'>Address</span>: {$student_data['address']}<br>
           </div>
         </div>
         <div class='third_section'>
